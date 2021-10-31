@@ -1,4 +1,4 @@
-function strictEquals(firstValue, secondValue) {
+const strictEquals = (firstValue, secondValue) => {
   if (typeof firstValue == typeof secondValue && firstValue == secondValue) {
     return 'true'
   } else {
